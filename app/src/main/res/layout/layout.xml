@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backeditprofile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/tombolback"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFIL"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/backeditprofile" />
+
+
+    <TextView
+        android:id="@+id/tv_judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User ID"
+        android:paddingHorizontal="10sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="119dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editprofil_inputuserID"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Buat User Id Anda"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp"
+        android:text="Alamat Rumah "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editprofil_inputalamat"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Alamat Rumah Anda"
+        android:inputType="text"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp"
+        android:text="Info Kontak"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="379dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editprofil_inputtelfon"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Masukan Nomer Telfon Anda"
+        android:inputType="text"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <EditText
+        android:id="@+id/editprofil_inputemail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Masukan Email Anda"
+        android:inputType="text"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:text="Info Umum"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="552dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editprofil_inputgender"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Gender Anda"
+        android:inputType="text"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <EditText
+        android:id="@+id/editprofil_inputtgl"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_columimput"
+        android:hint="Masukan Tanggal Lahir Anda"
+        android:inputType="text"
+        android:paddingHorizontal="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp"
+        android:text="Edit Photo "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="715dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16sp"
+        android:text="Ganti Profil Anda"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="742dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/editprofileBTN_gantiprofile"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:backgroundTint="@color/hijautua"
+        android:text="Upload"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="735dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/biru"
+        android:text="Edit Profile "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="790dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
